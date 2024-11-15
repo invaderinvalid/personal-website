@@ -1,0 +1,5 @@
+mywebsite/db.sqlite3
+mywebsite/__pycache__
+mywebsite/__init__.py
+base/__pycache__
+base/__init__.py

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void's Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="typing-animation"></div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me ...</h2>
+            <p>I’m a developer with a passion for blending creativity and technology. My journey into the world of coding started with an insatiable curiosity about how things work. As I delved deeper into programming, I discovered a love for the art and science of building software. Whether it’s designing sleek, efficient algorithms or crafting elegant user interfaces, I find joy in solving problems and creating functional, innovative solutions.
+
+                Beyond coding, I’m an anime enthusiast. The vibrant worlds, intricate plots, and dynamic characters of anime inspire me, both in my work and in my personal projects. I often find parallels between the storytelling in anime and the user experiences I aim to create in my applications.
+                
+                Drawing is another creative outlet for me. It’s a way to unwind and explore visual storytelling, bringing characters and scenes to life with a personal touch. My sketching often influences my design approach in tech, as I appreciate the balance between aesthetics and functionality.
+                
+                Overall, my life as a developer is a blend of technical expertise and creative exploration. From coding the latest technologies to drawing inspiration from anime, I’m always excited to see where my passions will take me next.</p>
+        </section>
+
+        <section id="tech-stack">
+            <h2>Tech Stack</h2>
+            <div class="tech-icons">
+                <img src="{% static 'images/html-icon.png' %}" alt="HTML" data-project="home.html">
+                <img src="{% static 'images/css-icon.png' %}" alt="CSS" data-project="home.html">
+                <img src="{% static 'images/python-icon.png' %}" alt="Python" data-project="home.html">
+                <img src="{% static 'images/javascript-icon.png' %}" alt="JavaScript" data-project="home.html">
+                <img src="{% static 'images/dart-icon.png' %}" alt="Dart" data-project="home.html">
+                <img src="{% static 'images/github-logo.png' %}" alt="Git" data-project="home.html">
+                <img src="{% static 'images/mongodb-icon.png' %}" alt="MongoDB" data-project="home.html">
+                <img src="{% static 'images/mysql-icon.png' %}" alt="MySQL" data-project="home.html">
+                <img src="{% static 'images/postgresql-icon.png' %}" alt="PostgreSQL" data-project="home.html">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A clean and responsive portfolio website built with Django backend.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-cards">
+                <a href="https://www.linkedin.com/in/sunny-sharma-ab87ba313/" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/invaderinvalid" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:sharma.shani2004@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Void. All rights reserved.</p>
+    </footer>
+
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
